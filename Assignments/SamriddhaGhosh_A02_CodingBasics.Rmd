@@ -11,7 +11,8 @@ editor_options:
 
 ## OVERVIEW
 
-This exercise accompanies the lessons in Environmental Data Analytics on coding basics.
+This exercise accompanies the lessons in Environmental Data Analytics on coding 
+basics.
 
 ## Directions
 
@@ -56,7 +57,9 @@ mean(seq_of_hundred) > median(seq_of_hundred)
 8.  Label the columns of your data frame with informative titles.
 
 ```{r}
-#5.Created a series of vectors, each with four components, consisting of (a) names of students, (b) test scores out of a total 100 points, and (c) whether or not they have passed the test (TRUE or FALSE) with a passing grade of 50.
+#5.Created a series of vectors, each with four components, consisting of 
+#(a) names of students, (b) test scores out of a total 100 points, and 
+#(c) whether or not they have passed the test (TRUE or FALSE) with a passing grade of 50.
 student_name <- c('sam','abhi','jai','dev') #data type is strings inputting names
 student_name 
 test_score <- c('77','40','90','55')  #data type is integers inputting test scores out of 100
@@ -78,7 +81,8 @@ student_chart
 11. Apply your function to the vector with test scores that you created in number 5.
 
 ```{r}
-#10. A function is created with 'ifelse' statement, to check whether a given test score is a passing grade of 50 or above. 
+#10. A function is created with 'ifelse' statement, to check whether a given test 
+#score is a passing grade of 50 or above. 
 #11. Function applied to the vector with test scores that were created in Q5.
 student_results<-function(x)
 {
@@ -88,7 +92,8 @@ student_results(test_score)
 ```
 Comparison of the two methods of if and else
 ```{r}
-#whole code is commented to avoid issues in knitting. But when executed an error is thrown as:- Error in if (x > 50) { : the condition has length > 1
+#whole code is commented to avoid issues in knitting. But when executed an error is thrown as:- 
+#Error in if (x > 50) { : the condition has length > 1
 
 #student_results<-function(x)
 #{
